@@ -4,7 +4,7 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: tempalg1n/dify-telegram-bot
+    repo: wesamalnabki/dify-telegram-bot
   envs:
     - key: BOT_TOKEN
       scope: RUN_TIME

@@ -1,5 +1,3 @@
-greeting = Привет, { $username }! Вы успешно развернули Dify Bot, можете начать общение с вашим ассистентом. Чтобы перейти к общению, используйте команду /new_chat. Если хотите сбросить контекст и начать новый чат, используйте эту же команду.
-
-    Приятного общения!
-new-chat = Контекст сброшен, можете начать общение
-waiting = Подождите, пока бот обработает ваш запрос...
+greeting = Hello, { $username }!. To start a conversation, use the /new_chat command. If you want to reset the context and start a new chat, use the same command.
+new-chat = The context has been reset, you can start chatting.
+waiting = Please wait while we are processing your request...
