@@ -1,1 +1,1 @@
-python -m src.bot
+worker: python -m src.bot
