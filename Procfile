@@ -1,1 +1,1 @@
-bot: python -m src/bot
+python -m src.bot
