@@ -1,13 +1,8 @@
 name: dify-telegram-bot
 services:
-- environment_slug: python
+- dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
     repo: wesamalnabki/dify-telegram-bot
-  envs:
-    - key: BOT_TOKEN
-      scope: RUN_TIME
-    - key: DIFY_API_KEY
-      scope: RUN_TIME
   name: dify-telegram-bot
